@@ -1,0 +1,30 @@
+body{
+    font-family: "Open Sans", sans-serif;
+}
+/**Main CSS**/
+a{
+    color: #000;
+    text-decoration: none;
+}
+header{
+    background-color: #fff8f3;
+}
+.complex-btn{
+    background-color: #f1990b;
+    color: #fff !important;
+}
+.header ul li{
+    padding-right: 50px;
+    font-weight: 700;
+}
+header a h3 span{
+    color: #f1990b;
+}
+header a h3{
+    font-weight: 800;
+}
+/**banner-section**/
+.banner-section{
+    padding-top: 150px;
+    background-color: #fff8f3;
+}
