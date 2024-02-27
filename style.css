@@ -6,6 +6,9 @@ a{
     color: #000;
     text-decoration: none;
 }
+img{
+    max-width: 100%;
+}
 header{
     background-color: #fff8f3;
 }
@@ -26,5 +29,72 @@ header a h3{
 /**banner-section**/
 .banner-section{
     padding-top: 150px;
+    padding-bottom: 30px;
     background-color: #fff8f3;
+    overflow: hidden;
+}
+.btn-2 i{
+    margin-left: -10px;
+}
+.about-section h3{
+    margin-bottom: 30px;
+    font-weight: 700;
+}
+.about-info{
+    margin-top: 40px;
+}
+.info span{
+    color: #606060;
+}
+.info h6{
+    font-weight: 600;
+    margin-top: 12px;
+}
+/**Card CSS**/
+.carding{
+    border-radius: 15px !important;
+    height: 320px;
+}
+.card-border img{
+    width: 100px !important;
+}
+.carding h4 , p{
+    padding-left: 10px;
+}
+/**Form CSS**/
+.form-section{
+    background-color: #fff8f3;
+}
+.form-section h3{
+    font-weight: 600;
+}
+.form-left{
+    position: relative;
+}
+.form-left ul li{
+    list-style: none;
+    display: inline-block;
+    margin-top: 20px;
+}
+.form-left ul li i{
+    font-size: 25px;
+    padding-right: 20px;
+    color: #f1990b;
+}
+input{
+    width: 75%;
+    height: 50px;
+    margin-bottom: 15px;
+    border: none;
+    padding-left: 20px;
+}
+textarea{
+    width: 75%;
+    height: 100px;
+    border: none;
+    padding-left: 20px;
+}
+/**Footer CSS**/
+.footer p{
+    font-weight: 600;
 }
